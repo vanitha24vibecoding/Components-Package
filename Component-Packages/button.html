@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Button States</title>
+  <link rel="stylesheet" href="button.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <span class="state-label">Rest</span>
+    <button class="btn text-only">Text</button>
+    <button class="btn text-icon"><span class="circle"></span>Text</button>
+    <button class="btn icon-only"><span class="circle"></span></button>
+  </div>
+  <div class="row">
+    <span class="state-label">Hover</span>
+    <button class="btn text-only" style="background:#0c695a;">Text</button>
+    <button class="btn text-icon" style="background:#0c695a;"><span class="circle"></span>Text</button>
+    <button class="btn icon-only" style="background:#0c695a;"><span class="circle"></span></button>
+  </div>
+  <div class="row">
+    <span class="state-label">Pressed</span>
+    <button class="btn text-only" style="background:#033f38;">Text</button>
+    <button class="btn text-icon" style="background:#033f38;"><span class="circle"></span>Text</button>
+    <button class="btn icon-only" style="background:#033f38;"><span class="circle"></span></button>
+  </div>
+  <div class="row">
+    <span class="state-label">Selected</span>
+    <button class="btn text-only selected">Text</button>
+    <button class="btn text-icon selected"><span class="circle"></span>Text</button>
+    <button class="btn icon-only selected"><span class="circle"></span></button>
+  </div>
+  <div class="row">
+    <span class="state-label">Focus</span>
+    <button class="btn text-only" style="outline:3px solid black;outline-offset:2px;">Text</button>
+    <button class="btn text-icon" style="outline:3px solid black;outline-offset:2px;"><span class="circle"></span>Text</button>
+    <button class="btn icon-only" style="outline:3px solid black;outline-offset:2px;"><span class="circle"></span></button>
+  </div>
+  <div class="row">
+    <span class="state-label">Disabled</span>
+    <button class="btn text-only" disabled>Text</button>
+    <button class="btn text-icon" disabled><span class="circle"></span>Text</button>
+    <button class="btn icon-only" disabled><span class="circle"></span></button>
+  </div>
+</div>
+
+</body>
+</html>
